@@ -114,6 +114,8 @@ public class KitGenerator {
         kit.getItemList().add(new KitItem(ItemType.ROD, new ItemStack(Material.FISHING_ROD), true));
     }
 
+    // There's a more efficient way but this works so yea...
+    
     public Kit generateKit() {
         Kit kit = new Kit();
 
