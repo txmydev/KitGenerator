@@ -1,4 +1,4 @@
-name: SkullKitGenerator
-main: net.skulluhc.kitgenerator.KitGeneratorPlugin
+name: KitGenerator
+main: me.txmy.kitgenerator.KitGeneratorPlugin
 version: 1.0
 author: txmy

@@ -1,4 +1,4 @@
-package net.skulluhc.kitgenerator.enums;
+package me.txmy.kitgenerator.enums;
 
 import org.bukkit.Material;
 

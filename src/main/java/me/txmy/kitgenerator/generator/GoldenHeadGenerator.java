@@ -1,4 +1,4 @@
-package net.skulluhc.kitgenerator.generator;
+package me.txmy.kitgenerator.generator;
 
 import org.bukkit.inventory.ItemStack;
 

@@ -1,8 +1,8 @@
-package net.skulluhc.kitgenerator.item;
+package me.txmy.kitgenerator.item;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-import net.skulluhc.kitgenerator.enums.ItemType;
+import me.txmy.kitgenerator.enums.ItemType;
 import org.bukkit.inventory.ItemStack;
 
 @Data @RequiredArgsConstructor

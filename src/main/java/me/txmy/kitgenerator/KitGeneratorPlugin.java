@@ -1,4 +1,4 @@
-package net.skulluhc.kitgenerator;
+package me.txmy.kitgenerator;
 
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;

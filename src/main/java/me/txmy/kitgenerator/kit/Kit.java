@@ -1,8 +1,8 @@
-package net.skulluhc.kitgenerator.kit;
+package me.txmy.kitgenerator.kit;
 
 import lombok.Data;
-import net.skulluhc.kitgenerator.enums.ItemType;
-import net.skulluhc.kitgenerator.item.KitItem;
+import me.txmy.kitgenerator.item.KitItem;
+import me.txmy.kitgenerator.enums.ItemType;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.PlayerInventory;
 

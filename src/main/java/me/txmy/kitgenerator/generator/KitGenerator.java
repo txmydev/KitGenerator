@@ -1,10 +1,9 @@
-package net.skulluhc.kitgenerator.generator;
+package me.txmy.kitgenerator.generator;
 
 import lombok.RequiredArgsConstructor;
-import net.skulluhc.kitgenerator.KitGeneratorPlugin;
-import net.skulluhc.kitgenerator.enums.ItemType;
-import net.skulluhc.kitgenerator.item.KitItem;
-import net.skulluhc.kitgenerator.kit.Kit;
+import me.txmy.kitgenerator.item.KitItem;
+import me.txmy.kitgenerator.kit.Kit;
+import me.txmy.kitgenerator.enums.ItemType;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
@@ -115,6 +114,7 @@ public class KitGenerator {
     }
 
     // There's a more efficient way but this works so yea...
+    // Also, if you would like to modify how an item is made, it'll be easier to do it by overriding the method
     
     public Kit generateKit() {
         Kit kit = new Kit();

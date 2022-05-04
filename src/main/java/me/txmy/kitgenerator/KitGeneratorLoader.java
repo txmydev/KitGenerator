@@ -1,9 +1,9 @@
-package net.skulluhc.kitgenerator;
+package me.txmy.kitgenerator;
 
 import lombok.Getter;
 import lombok.Setter;
-import net.skulluhc.kitgenerator.generator.GoldenHeadGenerator;
-import net.skulluhc.kitgenerator.generator.KitGenerator;
+import me.txmy.kitgenerator.generator.KitGenerator;
+import me.txmy.kitgenerator.generator.GoldenHeadGenerator;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,6 +14,7 @@ public class KitGeneratorLoader {
 
     @Setter
     private GoldenHeadGenerator goldenHeadGenerator;
+    @Setter
     private KitGenerator kitGenerator;
 
     public KitGeneratorLoader(JavaPlugin plugin) {

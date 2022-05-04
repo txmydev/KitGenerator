@@ -1,6 +1,6 @@
-package net.skulluhc.kitgenerator;
+package me.txmy.kitgenerator;
 
-import net.skulluhc.kitgenerator.generator.GoldenHeadGenerator;
+import me.txmy.kitgenerator.generator.GoldenHeadGenerator;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
